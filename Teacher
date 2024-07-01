@@ -1,0 +1,3 @@
+class Teacher(Human):
+    _homeroom_class: Class | None
+    _subjects: List[Subject]
