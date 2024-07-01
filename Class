@@ -1,0 +1,8 @@
+class Class(list):
+    _grade: int
+    _letter: str
+    _students: List["Student"]
+    _homeroom_teacher: "Teacher"
+    ...
+    def __getitem__(self, name):
+        ...
