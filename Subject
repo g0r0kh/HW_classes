@@ -1,0 +1,11 @@
+from enum import Enum
+
+
+class Subject(Enum):
+    MATH = 'Математика'
+    RUSSIAN_LANG = 'Русский язык'
+    FOREIGN_LANG = 'Английский язык'
+    BIO = 'Биология'
+    GEO = 'География'
+    PHY = 'Физкультура'
+    ART = 'Искусство'
