@@ -1,11 +1,8 @@
 from enum import Enum
 
+from typing import List
 
 class Subject(Enum):
     MATH = 'Математика'
-    RUSSIAN_LANG = 'Русский язык'
-    FOREIGN_LANG = 'Английский язык'
-    BIO = 'Биология'
-    GEO = 'География'
-    PHY = 'Физкультура'
-    ART = 'Искусство'
+    RUSSIAN_LANG = 'Русcкий Язык'
+    FOREAN_LANG = 'Английский Язык'
